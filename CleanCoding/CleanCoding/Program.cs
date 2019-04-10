@@ -30,6 +30,7 @@ namespace CleanCoding
                 double upFrontPayment = Double.Parse(Console.ReadLine());          
                 double a = (priceOfHouse / 100) * upFrontPayment;
                 Console.WriteLine(a + " amount you need");
+                global::System.Console.WriteLine("test1");
             }
             else if (userInput == "2")
             {
