@@ -22,6 +22,7 @@ namespace CleanCoding
         //this is the fucker hope you have fucking nice day
         public static void calculate(string t)
         {
+            //this code is bad!
             if(t == "1")
             {
                 double hp, pn;
