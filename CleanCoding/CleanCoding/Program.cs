@@ -31,6 +31,7 @@ namespace CleanCoding
                 pn = Double.Parse(Console.ReadLine());          
                 double a = (hp / 100) * pn;
                 Console.WriteLine(a + " amount you need");
+                global::System.Console.WriteLine("test1");
             }
             else if (t == "2")
             {
