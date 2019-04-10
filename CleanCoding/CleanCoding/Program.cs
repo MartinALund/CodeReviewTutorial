@@ -34,13 +34,13 @@ namespace CleanCoding
             }
             else if (t == "2")
             {
-                double m, a;
+                double multiply, add;
                 Console.WriteLine("Monthly income? : " );
-                m = Double.Parse(Console.ReadLine());
+                multiply = Double.Parse(Console.ReadLine());
                 Console.WriteLine("Approximate multiplier ? ");
-                a = Double.Parse(Console.ReadLine());      
-                double y = m * 12;
-                double hpa = y * a;
+                add = Double.Parse(Console.ReadLine());      
+                double y = multiply * 12;
+                double hpa = y * add;
                 Console.WriteLine(hpa + " approximate purchase");
             }
             Console.ReadLine();
