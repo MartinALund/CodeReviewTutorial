@@ -17,7 +17,10 @@ namespace CleanCoding
             Console.WriteLine("Hello and welcome to the calculator!");
             Console.WriteLine("Calculate down payment: press 1");
             Console.WriteLine("Calculate approximate loan amount: press 2");
-            calculate(Console.ReadLine());
+            Console.WriteLine("hello");
+            global::System.Console.WriteLine("ble");
+            calculate(Console.ReadLine()); 
+            //qweqwewqeqweqweqwe
         }
 
         public static void calculate(string t)
