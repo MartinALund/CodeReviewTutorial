@@ -17,20 +17,20 @@ namespace CleanCoding
             Console.WriteLine("Hello and welcome to the calculator!");
             Console.WriteLine("Calculate down payment: press 1");
             Console.WriteLine("Calculate approximate loan amount: press 2");
-            calculate(Console.ReadLine());
+            calculate(int.Parse(Console.ReadLine()));
         }
 
-        public static void calculate(string t)
+        public static void calculate(int userPick)
         {
-            if(t == "1")
+            if(userPick == 1)
             {
-                double hp, pn;
-                Console.WriteLine("Price of a whore? " );
-                hp = Double.Parse(Console.ReadLine());
-                Console.WriteLine("How many % of the total whore price do you need upfront?" );
-                pn = Double.Parse(Console.ReadLine());
-                double a = (hp / 100) * pn;
-                Console.WriteLine(a + " amount you need");
+                double housePrice, percentNow;
+                Console.WriteLine("Price of a house? " );
+                housePrice = Double.Parse(Console.ReadLine());
+                Console.WriteLine("How many % of the total house price do you need upfront?" );
+                percentNow = Double.Parse(Console.ReadLine());
+                double upfrontPayment = (housePrice / 100) * percentNow;
+                Console.WriteLine(upfrontPayment + " amount you need");
             }
             else if (t == "2")
             {
