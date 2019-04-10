@@ -54,6 +54,7 @@ Before creating a branch, you should always do a pull from master, to ensure you
 
 You now have a branch and are able to make changes in your branch. Make some changes to the code and proceed
 
+- Type in `git status` to check which branch you are on
 - If you are adding a new file, remember to type in `git add 'filename'`
 - Type in `git commit -m "[Commit Message]"` to commit your changes
 - Type in `git pull origin master` to pull changes from master into your branch
