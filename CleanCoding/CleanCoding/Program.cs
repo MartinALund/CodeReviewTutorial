@@ -19,7 +19,7 @@ namespace CleanCoding
             Console.WriteLine("Calculate approximate loan amount: press 2");
             calculate(Console.ReadLine());
         }
-
+        //this is the fucker hope you have fucking nice day
         public static void calculate(string t)
         {
             if(t == "1")
