@@ -24,23 +24,22 @@ namespace CleanCoding
         {
             if(userInput == "1")
             {
-                double parse, pn;
                 Console.WriteLine("Price of house? " );
-                parse = Double.Parse(Console.ReadLine());
+                double priceOfHouse = Double.Parse(Console.ReadLine());
                 Console.WriteLine("How many % of the total house price do you need upfront?" );
-                pn = Double.Parse(Console.ReadLine());          
-                double a = (parse / 100) * pn;
+                double upFrontPayment = Double.Parse(Console.ReadLine());          
+                double a = (priceOfHouse / 100) * upFrontPayment;
                 Console.WriteLine(a + " amount you need");
             }
             else if (userInput == "2")
             {
-                double m, a;
+                double monthlyInterest;
                 Console.WriteLine("Monthly income? : " );
-                m = Double.Parse(Console.ReadLine());
+                double monthlyIncome = Double.Parse(Console.ReadLine());
                 Console.WriteLine("Approximate multiplier ? ");
-                a = Double.Parse(Console.ReadLine());      
-                double y = m * 12;
-                double hpa = y * a;
+                monthlyInterest = Double.Parse(Console.ReadLine());      
+                double y = monthlyIncome * 12;
+                double hpa = y * monthlyInterest;
                 Console.WriteLine(hpa + " approximate purchase");
             }
             Console.ReadLine();
