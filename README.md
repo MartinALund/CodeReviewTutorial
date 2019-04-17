@@ -1,5 +1,15 @@
 # CodeReviewExample
 
+# What's in it for me?
+
+Working this way with GIT requires practice but it sets you up for the real world and code review.
+
+Benefits of code review:
+- Catch bugs in the software before releasing it into master
+- The team is in focus, when releasing code with code review, you get a sense of teamwork over it. You are never alone on releasing code
+- You learn by either receiving or giving a code review
+-If you want to contribute to open source projects a `fork` + `pull request` based GIT strategy is not uncommon
+
 
 # Fork this repository
 When you fork a repository, you create a copy of a repository. So forking this project will give you your own version of it.
@@ -110,15 +120,6 @@ In our team the requester of the pull request gets to merge into master.
 In your pull request click on the 'Merge pull request' button when you have green lights, confirm merge and you are done!
 If you don't need the branch anymore you can click on the 'Delete branch' button.
 
-# What's in it for me?
-
-Working this way with GIT requires practice but it sets you up for the real world and code review.
-
-Benefits of code review:
-- Catch bugs in the software before releasing it into master
-- The team is in focus, when releasing code with code review, you get a sense of teamwork over it. You are never alone on releasing code
-- You learn by either receiving or giving a code review
--If you want to contribute to open source projects a `fork` + `pull request` based GIT strategy is not uncommon
 
 ### The end
 You have now forked a repository, and made some changes. This tutorial is not about the actual code in the repository you are forking, but about this way of working with GIT. The next time you are working in a team, try enforcing this way of using GIT and code review.
