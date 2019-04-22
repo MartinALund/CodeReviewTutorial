@@ -94,7 +94,7 @@ You now have a branch and are able to make changes in your branch. Make some cha
 - Navigate to github.com and find your repository. 
 - Click on the tab 'Pull requests'
 - Click on 'New pull request' 
-- Set your 'base' to master and 'compare' to your branch - **_Remember to set the base as your forked repository and not where you forked the repository from otherwise you will make changes to the original repo and not your newly forked repo. _**
+- Set your 'base' to master and 'compare' to your branch - **_Remember to set the base as your forked repository and not where you forked the repository from otherwise you will make changes to the original repo and not your newly forked repo._**
 - Click on 'Create pull request'
 - Fill in information about the pull request, what you have done.
 - Click on 'Create pull request' 
