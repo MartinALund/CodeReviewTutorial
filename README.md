@@ -27,12 +27,12 @@ When you fork a repository, you create a copy of a repository. So forking this p
 - Go to the `Code` tab
 - Click on the CODEOWNERS file
 - Edit this file by clicking on the pencil
-- Add your team members on line 2 with the syntax '@collaborator @anotherCollaborator @aThirdCollaborator'
+- Add your team members on line 2 with the syntax '@collaborator @aCollaborator @anotherCollaborator'
 - Scroll down to the bottom
 - Make sure 'Commit directly to the master branch' is checked. 
 - Click 'Commit changes' to update the file
 
-By adding collaborators to your project and including these members in the CODEOWNERS file you are setting them up for automatic code review requests. When you make a pull request later, the code owners will get an email about the change.
+**By adding collaborators to your project and including these members in the _CODEOWNERS_ file you are setting them up for automatic code review requests. When you make a pull request later, the code owners will get an email about the change.**
 
 
 # Add branch rules to forked project
@@ -52,10 +52,12 @@ By adding collaborators to your project and including these members in the CODEO
 - When you clone the project remember to add origin to your project by doing `git remote add origin https://github.com/YOUR-USERNAME/CodeReviewExample.git`
 - If you are using a git gui like `Github Desktop` you can clone directly from that program.
 
-You now have the project working locally on your machine. Now we can make changes to the code.
+**You now have the project working locally on your machine. Now we can make changes to the code.**
 
 
 # Make changes to project locally
+
+**Now we will make some changes to the code. It doesn't have to be anything particular, just for the sake of practice.**
 
 When making changes to code, you should always branch out and create changes on that branch.
 Before creating a branch, you should always do a pull from master, to ensure you have the newest version when branching out.
@@ -67,7 +69,8 @@ Before creating a branch, you should always do a pull from master, to ensure you
 You now have a branch and are able to make changes in your branch. Make some changes to the code and proceed
 
 - Type in `git status` to check which branch you are on
-- If you are adding a new file, remember to type in `git add 'filename'`
+- If you are adding a new file, remember to type in `git add 'filename'` or `git add --all`
+- Type in `git status` to see current status for your repository
 - Type in `git commit -m "[Commit Message]"` to commit your changes
 - Type in `git pull origin master` to pull changes from master into your branch
 - Type in `git push -u origin [name_of_your_new_branch]`
@@ -86,17 +89,18 @@ You now have a branch and are able to make changes in your branch. Make some cha
 
 # Create the pull request
 
-You have now made some changes, and you want your changes to appear on the master branch.
+**You have now made some changes, and you want your changes to appear on the master branch.**
 
 - Navigate to github.com and find your repository. 
 - Click on the tab 'Pull requests'
 - Click on 'New pull request' 
-- Set your 'base' to master and 'compare' to your branch - Remember to set the base as your forked repository and not where you forked the repository from. 
+- Set your 'base' to master and 'compare' to your branch - **_Remember to set the base as your forked repository and not where you forked the repository from otherwise you will make changes to the original repo and not your newly forked repo. _**
 - Click on 'Create pull request'
 - Fill in information about the pull request, what you have done.
 - Click on 'Create pull request' 
 
 Your pull request is now available on the branch.
+
 If you have setup codeowners they will recieve an email about this pull request. This pull request now needs to be reviewed by one of the codeowners, and this is where we begin working with code reviews. 
 
 
