@@ -17,31 +17,35 @@ namespace CleanCoding
             Console.WriteLine("Hello and welcome to the calculator!");
             Console.WriteLine("Calculate down payment: press 1");
             Console.WriteLine("Calculate approximate loan amount: press 2");
-            calculate(Console.ReadLine());
+            Calculate(Console.ReadLine());
         }
 
-        public static void calculate(string t)
+        public static void Calculate(string choice)
         {
-            if(t == "1")
+            double housePrice;
+            double procent;
+            double amount;
+            double year;
+
+            if (choice == "1")
             {
-                double hp, pn;
                 Console.WriteLine("Price of house? " );
-                hp = Double.Parse(Console.ReadLine());
+                housePrice = Double.Parse(Console.ReadLine());
                 Console.WriteLine("How many % of the total house price do you need upfront?" );
-                pn = Double.Parse(Console.ReadLine());          
-                double a = (hp / 100) * pn;
-                Console.WriteLine(a + " amount you need");
+                procent = Double.Parse(Console.ReadLine());          
+                amount = (housePrice / 100) * procent;
+                Console.WriteLine(amount + " amount you need");
             }
-            else if (t == "2")
+            else if (choice == "2")
             {
-                double m, a;
+                double monthly, approximateMultiplier;
                 Console.WriteLine("Monthly income? : " );
-                m = Double.Parse(Console.ReadLine());
+                monthly = Double.Parse(Console.ReadLine());
                 Console.WriteLine("Approximate multiplier ? ");
-                a = Double.Parse(Console.ReadLine());      
-                double y = m * 12;
-                double hpa = y * a;
-                Console.WriteLine(hpa + " approximate purchase");
+                approximateMultiplier = Double.Parse(Console.ReadLine());      
+                year = monthly * 12;
+                double housePriceApproximate = year * approximateMultiplier;
+                Console.WriteLine(housePriceApproximate + " approximate purchase");
             }
             Console.ReadLine();
         }
