@@ -6,5 +6,6 @@ namespace CleanCoding
 {
     class Class2
     {
+        //hej
     }
 }
