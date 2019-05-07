@@ -126,7 +126,7 @@ If you don't need the branch anymore you can click on the 'Delete branch' button
 
 
 ### The end
-You have now forked a repository, and made some changes. This tutorial is not about the actual code in the repository you are forking, but about this way of working with GIT. The next time you are working in a team, try enforcing this way of using GIT and code review.
+You have now forked a repository, and made some changes. You have tried working with a pull request based strategy and a bit more about branching out when working on features using GIT. The next time you are working in a team, try enforcing this way of using GIT and code review.
 
 
 
