@@ -52,14 +52,13 @@ When you fork a repository, you create a copy of a repository. So forking this p
 - When you clone the project remember to add origin to your project by doing `git remote add origin https://github.com/YOUR-USERNAME/CodeReviewExample.git`
 - If you are using a git gui like `Github Desktop` you can clone directly from that program.
 
-**You now have the project working locally on your machine. Now we can make changes to the code.**
-
+**You now have the project working locally on your machine. Now we can make changes to the repository locally.**
 
 # Make changes to project locally
 
-**Now we will make some changes to the code. It doesn't have to be anything particular, just for the sake of practice.**
+**Add something to the folder. It doesn't have to be anything particular, just for the sake of practice.**
 
-When making changes to code, you should always branch out and create changes on that branch.
+When making changes locally, you should always branch out and create changes on that branch.
 Before creating a branch, you should always do a pull from master, to ensure you have the newest version when branching out.
 
 ### Git bash:
@@ -76,7 +75,7 @@ You now have a branch and are able to make changes in your branch. Make some cha
 - Type in `git push -u origin [name_of_your_new_branch]`
 
 
-### Git gui: 
+### Git gui(Github desktop, Sourcetree, GitKraken and so on): 
 - Make a pull from master
 - Create a new branch and checkout that branch 
 
