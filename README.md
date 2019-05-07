@@ -1,5 +1,9 @@
 # CodeReviewExample
 
+## Prerequisite for this tutorial
+- Some basic knowledge about Git
+- A Github user
+
 # What's in it for me?
 
 Working this way with GIT requires practice but it sets you up for the real world and code review.
